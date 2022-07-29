@@ -20,7 +20,7 @@ function getInfo() {
         
         Object.keys(buses).forEach(bus => {
             let liElement = document.createElement('li')
-            liElement.textContent = `Bus ${bus} will arive ${buses[bus]} minutes`
+            liElement.textContent = `Bus ${bus} will arive ${buses[bus]} minutes` 
             ulElement.appendChild(liElement)
             
         })
